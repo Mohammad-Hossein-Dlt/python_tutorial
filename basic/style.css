@@ -1,0 +1,13 @@
+body {
+  direction: rtl;
+  text-align: right;
+  font-family: "Vazirmatn", "Tahoma", "IRANSans", sans-serif;
+  line-height: 1.8;
+  font-size: 17px;
+}
+h1, h2, h3, h4, h5 {
+  text-align: right;
+}
+ul {
+  padding-right: 1.5em;
+}
