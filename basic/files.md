@@ -18,8 +18,6 @@ file.close()
 | `'t'`  | حالت متنی (پیش‌فرض)                                                     |
 | `'r+'` | خواندن و نوشتن همزمان                                                   |
 
----
-
 ## خواندن از فایل
 
 ### خواندن کل محتوا
@@ -50,8 +48,6 @@ line = file.readline()
 lines = file.readlines()
 ```
 
----
-
 ## نوشتن در فایل
 
 ### بازنویسی کامل فایل (`w`)
@@ -61,16 +57,12 @@ with open('output.txt', 'w') as file:
     file.write("Hello, world!\n")
 ```
 
----
-
 ## افزودن محتوا به فایل (`a`)
 
 ```python
 with open('output.txt', 'a') as file:
     file.write("This is an appended line.\n")
 ```
-
----
 
 ## استفاده از `with`
 
